@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutExterior"
+    tools:context="com.example.juliancamilomunoz.antioquiaturisticav21.Bares">
+
+    <TextView
+        android:text="@string/bares"
+        style="@style/ActivityTitleStyle"/>
+
+    <LinearLayout
+        style="@style/LayoutItemStyle"
+        android:onClick="AbrirSala94">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sala94logo"/>
+
+        <LinearLayout
+            style="@style/LayoutName">
+
+            <TextView
+                android:text="@string/sala94"
+                style="@style/TextViewNameStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sala94desc"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutItemStyle"
+        android:onClick="AbrirJano">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/janologo"/>
+
+        <LinearLayout
+            style="@style/LayoutName">
+
+            <TextView
+                android:text="@string/jano"
+                style="@style/TextViewNameStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/janodesc"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutItemStyle"
+        android:onClick="AbrirPizza">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/konoslogo"/>
+
+        <LinearLayout
+            style="@style/LayoutName">
+
+            <TextView
+                style="@style/TextViewNameStyle"
+                android:text="@string/konos"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/konosdesc"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

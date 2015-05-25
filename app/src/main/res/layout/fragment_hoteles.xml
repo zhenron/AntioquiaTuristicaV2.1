@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutExterior"
+    tools:context="com.example.juliancamilomunoz.antioquiaturisticav21.Hoteles">
+
+    <TextView
+        android:text="@string/hot_res"
+        style="@style/ActivityTitleStyle"/>
+
+    <LinearLayout
+        style="@style/LayoutItemStyle"
+        android:onClick="AbrirBrazil">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/brazillogo"/>
+
+        <LinearLayout
+            style="@style/LayoutName">
+
+            <TextView
+                android:text="@string/brazil"
+                style="@style/TextViewNameStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brazildesc"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutItemStyle">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/burroslogo"/>
+
+        <LinearLayout
+            style="@style/LayoutName"
+            android:onClick="AbrirBurros">
+
+            <TextView
+                android:text="@string/dosburros"
+                style="@style/TextViewNameStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dosburrosdesc"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutItemStyle"
+        android:onClick="AbrirHandM">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/handm"/>
+
+        <LinearLayout
+            style="@style/LayoutName">
+
+            <TextView
+                android:text="@string/HandM"
+                style="@style/TextViewNameStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/HandMdesc"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

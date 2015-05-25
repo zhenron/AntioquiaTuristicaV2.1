@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/LayoutExterior"
+        tools:context="com.example.juliancamilomunoz.antioquiaturisticav21.Jano">
+
+        <TextView
+            android:text="@string/jano"
+            style="@style/ActivityTitleStyle"/>
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/janof"/>
+
+        <LinearLayout
+            style="@style/PlaceDescription">
+
+            <TextView
+                android:text="@string/tipo"
+                android:textColor="@color/midnightblue"
+                style="@style/TextViewNameStyle"/>
+
+            <TextView
+                android:text="@string/bar"
+                style="@style/TextViewNameStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/PlaceDescription">
+
+            <TextView
+                android:text="@string/dir"
+                android:textColor="@color/midnightblue"
+                style="@style/TextViewNameStyle"/>
+
+            <TextView
+                android:text="@string/janodir"
+                style="@style/TextViewNameStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/PlaceDescription">
+
+            <TextView
+                android:text="@string/horario"
+                android:textColor="@color/midnightblue"
+                style="@style/TextViewNameStyle"/>
+
+            <TextView
+                android:text="@string/janohor"
+                style="@style/TextViewNameStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

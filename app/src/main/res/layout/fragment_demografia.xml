@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/LayoutExterior"
+        tools:context="com.example.juliancamilomunoz.antioquiaturisticav21.Demografia">
+
+        <TextView
+            android:text="@string/demografia"
+            style="@style/ActivityTitleStyle"/>
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/demografiaf"/>
+
+
+        <TextView
+            android:text="@string/demografia_info1"
+            style="@style/TextViewDemografia"/>
+
+        <TextView
+            android:text="@string/demografia_info2"
+            style="@style/TextViewDemografia"/>
+
+    </LinearLayout>
+
+</ScrollView>
